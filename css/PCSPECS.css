@@ -1,0 +1,52 @@
+body {
+	background-image: url(../images/specbg.jfif);
+}
+
+table {
+	border-collapse: collapse;
+	font-size: 13px;
+	font-family: 'Aldrich';
+	margin:  auto;
+	background-color: rgba(0,0,255,0.3);
+}
+
+tbody td {
+	border: solid 1px;
+	padding: .4em;
+	text-align: center;
+	color: black;
+}
+
+tbody tr:nth-of-type(even) {
+	background-color: #498BD6;
+}
+
+tbody tr:nth-of-type(odd) {
+	background-color: #388AE8;
+}
+
+.category {
+	text-align: left;
+}
+
+tfoot td:hover {
+	background-color: #C42121;
+}
+
+tfoot td {
+	border: solid 1px;
+	padding: .4em;
+	text-align: center;
+	color: black;
+}
+
+thead th:hover {
+	background-color: #C42121;
+}
+
+thead th {
+	border: solid 1px;
+	padding: .4em;
+	text-align: center;
+	color: black;
+}

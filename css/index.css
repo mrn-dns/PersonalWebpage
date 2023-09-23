@@ -1,0 +1,26 @@
+body {
+	background-image: url(../images/mainbg.jpg);
+}
+
+#mine {
+	color:orange;
+	font-size:20px;
+	background-color: rgba(0,0,0,0.6);
+	font-family: Impact, Charcoal, sans-serif;
+
+}
+
+/*https://www.javatpoint.com/how-to-center-images-in-css#:~:text=The%20centering%20of%20images%20or%20texts%20is%20a,aligning%20the%20image%20to%20center%20in%20the%20div.*/
+#image {  
+display: block;  
+margin-left: auto;  
+margin-right: auto;  
+border: 8px ridge blue;  
+padding: 5px;
+width: 400px;
+height: 400px;
+}
+
+figcaption {
+	text-align: center;
+}

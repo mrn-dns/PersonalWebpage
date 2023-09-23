@@ -1,0 +1,102 @@
+body {
+	background-image: url(../images/R.jfif);
+}
+
+aside {
+	float: left;
+	width: 10%;
+}
+
+#steam {
+	width: 200px;
+	height: 200px;
+	padding-left: 100px;
+}
+
+#bitcoin {
+	width: 200px;
+	height: 200px;
+	padding-left: 100px;
+}
+
+table{
+	width: 60%;
+	margin: auto;
+}
+
+th, td {
+	border-left: solid 1px ;
+	border-right: solid 1px;
+	padding: .4em;
+}
+
+thead {
+	background-color:  #339933;
+	color: white;
+}
+
+tbody td {
+	text-align: center;
+}
+
+td:nth-of-type(3) {
+	font-style: italic;
+}
+
+tbody tr:nth-of-type(even) {
+	background-color: #88ee88;
+}
+
+tbody tr:nth-of-type(odd) {
+	background-color: #99ff99;
+}
+
+thead th:nth-of-type(1) {
+	text-align: left;
+}
+
+tbody tr:hover {
+	background-color: #339933;
+}
+
+#table1 {
+	display: inline-block;
+	width: 100%;
+}
+
+caption {
+	caption-side: bottom;
+	text-align: right;
+}
+
+#table2 {
+	display: inline-block;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#caption2 {
+	caption-side: top;
+	text-align: right;
+}
+
+#table2 thead {
+	background-color: #E66C15;
+}
+
+#table2 tbody tr:nth-of-type(even) {
+	background-color: #DBA279;
+}
+
+#table2 tbody tr:nth-of-type(odd) {
+	background-color: #DEDB7A;
+}
+
+#table2 tbody tr:hover {
+	background-color: #C9C661;
+}
+
+figcaption {
+	text-align: center;
+	float: left;
+}
